@@ -23,7 +23,7 @@ pip install PyAutoGUI
 ```
 Run the demo.
 ```
-python .\test_pyvista_imgui.py
+python test_pyvista_imgui.py
 ```
 Then you should see a window.
 ![](/images/pyimgui.png)
