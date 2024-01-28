@@ -143,7 +143,7 @@ def main():
         is_expand, show_custom_window = imgui.begin("Test Change Sphere", False)
         imgui.set_window_font_scale(font_scale)
         if is_expand:
-            changed, pv_win.shpere_radius = imgui.slider_float("Font Scale", pv_win.shpere_radius, 0.1, 10)
+            changed, pv_win.shpere_radius = imgui.slider_float("Radius", pv_win.shpere_radius, 0.1, 10)
         imgui.end()
 
         # note: cannot use screen.fill((1, 1, 1)) because pygame's screen
